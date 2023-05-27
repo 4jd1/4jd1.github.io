@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lavr - Pear Soda</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333333;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #f9f9f9;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 36px;
+      color: #ff6600;
+      margin: 0;
+    }
+    
+    h2 {
+      font-size: 24px;
+      color: #666666;
+      margin: 0;
+      padding-top: 10px;
+    }
+    
+    p {
+      font-size: 16px;
+      color: #666666;
+      line-height: 1.5;
+    }
+    
+    .button {
+      display: inline-block;
+      background-color: #ff6600;
+      color: #ffffff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+    
+    .button:hover {
+      background-color: #ff8533;
+    }
+  </style>
+  <script>
+    function displayMessage() {
+      alert("Thank you for choosing Lavr Pear Soda!");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Lavr</h1>
+    <h2>Pear Soda</h2>
+  </header>
+  
+  <main>
+   <img src="pear-soda.jpg" alt="Lavr Pear Soda" width="400">
+    <p>Experience the refreshing taste of Lavr Pear Soda. Made from the finest pears, our soda delivers a burst of natural flavor that will keep you coming back for more.</p>
+    <p>Try Lavr today and discover a new level of fruity refreshment!</p>
+    <a href="#" class="button" onclick="displayMessage()">Buy Now</a>
+	<a href="#" class="button" onclick="learnMore()">Learn More</a>
+    <a href="#" class="button" onclick="aboutUs()">About Us</a>
+    <a href="https://www.klix.ba" class="button">Visit Klix.ba</a>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Lavr. All rights reserved.</p>
+  </footer>
+  <script>
+    // Set the image source with a randomly selected image
+    document.getElementById("sodaImage").src = "images/" + getRandomImage();
+	function displayMessage() {
+      alert("Thank you for choosing Lavr Pear Soda!");
+    }
+
+    function learnMore() {
+      alert("Learn more about the amazing benefits of Lavr Pear Soda.");
+    }
+
+    function aboutUs() {
+      var story = "Lavr Pear Soda was founded with a simple goal in mind - to bring the delicious taste of pears in a refreshing soda. Our founder, John Doe, was inspired by the natural sweetness and unique flavor of pears and envisioned a beverage that could capture that essence. After years of experimentation and dedication, Lavr Pear Soda was born. Today, we continue to deliver the highest quality pear soda to customers around the world. Cheers to the love of pears!";
+      alert(story);
+  </script>
+</body>
+</html>
+
+			 
